@@ -19,6 +19,10 @@
     --bg-color:#fff;
 }
 
+section{
+    padding: 4.5rem 0 1.5rem;
+}
+
 img{
     width: 100%;
 }
@@ -101,3 +105,94 @@ header{
     z-index: 10001;
     display: none;
 }
+
+.container{
+    position: relative;
+    width: 100%;
+    min-height: 680px;
+    display: flex;
+    align-items: center;
+    background: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    top: auto;
+}
+
+.container img{
+    width: 500px;
+    position: absolute;
+    bottom: 200px;
+    right: 200px;
+}
+
+.home-text{ 
+   padding: 0 200px;
+   bottom: 200px;
+   position: absolute;
+}
+
+.home-text span{
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--green-color);
+}
+
+.home-text h1{
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.btn{
+    padding: 0.6rem 1rem;
+    background: var(--green-color);
+    color: var(--bg-color);
+    font-weight: 400;
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 0.5rem;
+    max-width: 160px;
+}
+
+.btn .bx{
+    padding: 4px;
+    background: var(--bg-color);
+    color: var(--text-color);
+    border-radius: 1rem;
+    font-size: 20px;
+    margin: auto;
+}
+
+.btn:hover{
+    background:var(--light-orange-color);
+    transition: 0.2s ease;
+}
+
+.swiper-button-next{
+    background: url(img/icons/bxs-right-arrow-circle.svg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    margin-right: 20px;
+}
+
+.swiper-button-next::after{
+    display: none;
+}
+
+.swiper-button-prev{
+    background: url(img/icons/bxs-left-arrow-circle.svg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    margin-right: 20px;
+}
+
+.swiper-button-prev::after{
+    display: none;
+}
+
