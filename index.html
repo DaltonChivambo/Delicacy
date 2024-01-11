@@ -3,12 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delicacy</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
     />
-    <title>Delicacy</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <header>
@@ -24,11 +28,66 @@
       </ul>
 
       <div class="profile">
-        <img src="img/profile.jpg" alt="">
+        <img src="img/profile.jpg" alt="" />
         <span>Dalton Chivambo</span>
-        <i class='bx bx-caret-down' ></i>
+        <i class="bx bx-caret-down"></i>
       </div>
-
     </header>
+
+    <section class="home swiper" id="home">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide container">
+          <div class="home-text">
+            <span>We are Delicacy</span>
+            <h1>
+              Choose delicacy <br />
+              the best healthy <br />
+              chicken salad
+            </h1>
+            <a href="#" class="btn"
+              >Shop Now<i class="bx bxs-right-arrow-alt"></i
+            ></a>
+          </div>
+          <img src="img/home1.png" alt="" />
+        </div>
+
+        <div class="swiper-slide container">
+          <div class="home-text">
+            <span>We are Delicacy</span>
+            <h1>
+              Choose delicacy <br />
+              the best healthy <br />
+              chicken salad
+            </h1>
+            <a href="#" class="btn"
+              >Shop Now<i class="bx bxs-right-arrow-alt"></i
+            ></a>
+          </div>
+
+          <img src="img/home2.png" alt="" />
+        </div>
+
+        <div class="swiper-slide container">
+          <div class="home-text">
+            <span>We are Delicacy</span>
+            <h1>
+              Choose delicacy <br />
+              the best healthy <br />
+              chicken salad
+            </h1>
+            <a href="#" class="btn"
+              >Shop Now<i class="bx bxs-right-arrow-alt"></i
+            ></a>
+          </div>
+          <img src="img/home3.png" alt="" />
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
